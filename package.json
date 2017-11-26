@@ -1,13 +1,13 @@
 {
-  "name": "myblog",
+  "name": "animalFriend",
   "version": "1.0.0",
-  "description": "my first blog",
+  "description": "More Dog, More Cat, More health",
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover _mocha",
-    "start": "NODE_ENV=production pm2 start index.js --name 'myblog'"
+    "start": "NODE_ENV=production pm2 start index.js --name 'animalFriend'"
   },
-  "author": "nswbmw",
+  "author": "wangdong",
   "license": "MIT",
   "dependencies": {
     "config-lite": "2.1.0",

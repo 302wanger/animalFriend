@@ -1,10 +1,11 @@
 /* ---------- 全局样式 ---------- */
 
 body {
-  width: 1100px;
-  height: 100%;
-  margin: 0 auto;
-  padding-top: 40px;
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+    background: url("http://ww1.sinaimg.cn/large/41e13d0bly1flvmgqk5vlj20xc0xc78b.jpg") no-repeat;
 }
 
 a:hover {
