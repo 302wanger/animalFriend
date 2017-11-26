@@ -18,10 +18,10 @@ a:hover {
 }
 
 .avatar {
-  border-radius: 3px;
-  width: 48px;
-  height: 48px;
-  float: right;
+    border-radius: 3px;
+    width: 48px;
+    height: 48px;
+    float: right;
 }
 
 /* ---------- nav ---------- */
@@ -31,7 +31,6 @@ a:hover {
     color: #999;
     text-align: center;
 }
-
 .nav h1 {
   color: #4fc08d;
   display: inline-block;
@@ -39,24 +38,7 @@ a:hover {
 }
 
 
-/* ---------- nav-setting ---------- */
 
-.nav-setting {
-  position: fixed;
-  right: 30px;
-  top: 35px;
-  z-index: 999;
-}
-
-.nav-setting .ui.dropdown.button {
-  padding: 10px 10px 0 10px;
-  background-color: #fff !important;
-}
-
-.nav-setting .icon.bars {
-  color: #000;
-  font-size: 18px;
-}
 
 /* ---------- post-content ---------- */
 
