@@ -1,6 +1,6 @@
 <div class="post-content">
     <div class="ui grid">
-      <div class="four wide column">
+      <div class="two wide column">
         <a class="avatar avatar-link"
            href="/posts?author=<%= post.author._id %>"
            data-title="<%= post.author.name %> | <%= ({m: '男', f: '女', x: '保密'})[post.author.gender] %>"
@@ -9,10 +9,14 @@
         </a>
       </div>
 
-      <div class="eight wide column">
-        <div class="ui segment">
+      <div class="ten wide column">
+        <div>
           <h3><a href="/posts/<%= post._id %>"><%= post.title %></a></h3>
-          <pre><%- post.content %></pre>
+            <div class="ui center left container">
+                <p><%- post.content %></p>
+            </div>
+
+          <div id="img-show">图片显示位置</div>
           <div>
             <span class="tag"><%= post.created_at %></span>
             <span class="tag right">
